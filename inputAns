@@ -1,0 +1,16 @@
+123	accept
+0	accept
+0123	reject
+0_123	accept
+1_2_3	accept
+0x1f	accept
+0x_1F	accept
+0x__1	reject
+0o77	accept
+0o_77	accept
+00	reject
+_.1	reject
+.5	accept
+5.	accept
+1e10	accept
+1_e10	reject
